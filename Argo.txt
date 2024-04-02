@@ -1,0 +1,13 @@
+github:   https://github.com/cloudflare/cloudflared
+
+download:
+	mkdir -p argo && cd argo && wget https://github.com/cloudflare/cloudflared/releases/download/2023.10.0/cloudflared-linux-amd64 && chmod +x cloudflared-linux-amd64
+
+run these commands:
+	./cloudflared-linux-amd64 tunnel login
+
+	./cloudflared-linux-amd64 tunnel create TUNNEL_NAME
+	./cloudflared-linux-amd64 tunnel route dns TUNNEL_NAME <your.subdomain.com>
+
+	tmux
+	./cloudflared-linux-amd64 tunnel --url localhost:2052 run TUNNEL_NAME
