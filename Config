@@ -1,0 +1,55 @@
+رباتی که داخل ویدیو دامنه قدیمی ضدفیلتر 20 ساله خریدم:
+
+https://t.me/uuuisa1
+
+------------------------------------------------------------------------------------------------
+
+دوست عزیز و گرامی ، سپاسگزارم بابت اینکه ویدیو رو از طریق یوتوب تماشا کردی و باعث حمایت بزرگی از بنده شدی
+امیدوارم این ویدیو برات مفید و کارآمد بوده باشه، هرسوالی داشتید داخل کامنت ها و کانال تلگرام بپرسید
+
+apt update && apt upgrade -y
+
+apt-get install certbot -y
+
+certbot certonly --standalone --agree-tos --register-unsafely-without-email -d YOURDOMAIN.COM
+
+/etc/letsencrypt/live/YOURDOMAIN.COM/fullchain.pem
+
+/etc/letsencrypt/live/YOURDOMAIN.COM/privkey.pem
+
+bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
+
+
+https://vfarid.github.io/cf-ip-scanner
+
+https://cloudflare-v2ray.vercel.app/
+
+https://cloudflare-scanner.vercel.app/
+
+https://ircfspace.github.io/scanner/
+
+https://scanner.github1.cloud/
+
+104.24.171.20
+
+?ed=2048
+
+
+addEventListener(
+    "fetch", event => {
+        let url = new URL(event.request.url);
+        url.hostname = "YOURDOMAIN.COM";                        
+        url.protocol = "https";
+        let request = new Request(url, event.request);
+        event.respondWith(
+            fetch(request)
+        )
+    }
+)
+
+
+لینک آموزشی ویدیو:
+https://youtu.be/I8TSnnIJDX0
+
+لینک کانال تلگرام:
+https://t.me/asanfillter
